@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <EditText
         android:id="@+id/etBuscar"
         android:layout_width="match_parent"
@@ -15,7 +14,6 @@
         android:drawableLeft="@android:drawable/ic_menu_search"
         android:background="@android:color/white"
         android:layout_margin="6dp" />
-
 
     <ScrollView
         android:layout_width="match_parent"
@@ -35,7 +33,6 @@
                 android:columnCount="2"
                 android:padding="8dp"
                 android:orientation="horizontal">
-
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -61,12 +58,12 @@
                         android:src="@mipmap/cebiche_img" />
 
                     <Button
+                        android:id="@+id/btnCeviche"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Detalle" />
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -92,11 +89,13 @@
                         android:src="@mipmap/lomosaltado_img" />
 
                     <Button
+                        android:id="@+id/btnLomoSaltado"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Detalle" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -121,6 +120,7 @@
                         android:src="@mipmap/arrosleche_img" />
 
                     <Button
+                        android:id="@+id/btnArrozLeche"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -151,6 +151,7 @@
                         android:src="@mipmap/crema_img" />
 
                     <Button
+                        android:id="@+id/btnCremaVolteada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -181,11 +182,13 @@
                         android:src="@mipmap/causa_img" />
 
                     <Button
+                        android:id="@+id/btnCausaLimena"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="Detalle" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -210,6 +213,7 @@
                         android:src="@mipmap/arrozpollo_img" />
 
                     <Button
+                        android:id="@+id/btnArrozPollo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -218,7 +222,6 @@
             </GridLayout>
         </androidx.cardview.widget.CardView>
     </ScrollView>
-
 
     <FrameLayout
         android:layout_width="match_parent"

@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaYa_APK">
         <activity
-            android:name=".MenuActivity"
+            android:name=".DetalleRecetaActivity"
             android:exported="false" />
-        <!-- Registro -->
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" /> <!-- Registro -->
         <activity
             android:name=".RegistroActivity"
             android:exported="false" />
